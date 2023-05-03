@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Secular+One">
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .header {
+            display: flex;
+            margin-top: -9px;
+        }
+        header::before{
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3 ;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .logo img {
+            position: absolute;
+            width: 63px;
+            top: 2px;
+            left: 30px;
+
+        }
+        .logo div{
+            font-size: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            margin-left: 171px;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+            font-size: 21px;
+            font-family: 'Secular One variant0', Tofu;
+
+        }
+        a{
+            font-family: "Secular One variant0", Tofu;
+        }
+
+        .right {
+            display: inline-block;
+            margin-left: 231px;
+        }
+
+        .btn {
+            padding: 4px;
+            margin: 5px;
+            margin-top: 31px;
+            border-radius: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://cdn.pixabay.com/photo/2022/08/02/04/46/icon-7359529__340.png" alt="">
+            <div>Bunny's Kitchen</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"></a>Home</li>
+                <li><a href="#"></a>Prices</li>
+                <li><a href="#"></a>Our Customers</li>
+                <li><a href="#"></a>Contact Us</li>
+            </ul>
+
+
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+        
+    </header>
+</body>
+
+</html>
